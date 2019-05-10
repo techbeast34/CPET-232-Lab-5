@@ -1,0 +1,38 @@
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+USE ieee.numeric_std.all;
+
+ENTITY Lab5 IS
+	PORT(a,b 		:IN STD_LOGIC_VECTOR(3 DOWNTO 0);
+	     op			:IN STD_LOGIC_VECTOR(1 DOWNTO 0);
+	     r			:OUT STD_LOGIC_VECTOR(7 DOWNTO 0));
+END Lab5;
+
+
+ARCHITECTURE model OF Lab5 IS
+	SIGNAL a_signed, b_signed 	: SIGNED (3 DOWNTO 0);
+	SIGNAL r_signed			: SIGNED (7 DOWNTO 0);
+BEGIN
+	a_signed <= SIGNED(a);
+	b_signed <= SIGNED(b);
+		
+	calculator_case: PROCESS(op,a,b)
+		BEGIN
+			CASE op	IS
+				
+				--Addition
+				WHEN "00" => r_signed <= ((a_signed(3) & a_signed(3) & a_signed(3) & a_signed(3) & a_signed) + 
+							  (b_signed(3) & b_signed(3) & b_signed(3) & b_signed(3) & b_signed));
+				--Subtraction						  
+				WHEN "01" => r_signed <= ((a_signed(3) & a_signed) - 
+							  (b_signed(3) & b_signed));
+				--Multiplication						  
+				WHEN "10" => r_signed <= (a_signed * b_signed);
+				--Division
+				WHEN "11" => r_signed <= (a_signed / b_signed);
+			
+				WHEN OTHERS => r_signed <= ("00000000");
+			END CASE;
+		END PROCESS;
+	r <= STD_LOGIC_VECTOR(r_signed);
+END model;

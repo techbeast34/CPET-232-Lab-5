@@ -1,0 +1,19 @@
+S:/CPET232/Lab5/calculator_tb.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none S:/CPET232/Lab5/calculator_tb.vhd
+Model Technology ModelSim SE-64 vcom 10.7b Compiler 2018.06 Jun  8 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity calculator_tb
+-- Compiling architecture test of calculator_tb
+
+} {} {}} S:/CPET232/Lab5/Lab5.vhd {1 {vcom -work work -2002 -explicit -vopt -stats=none S:/CPET232/Lab5/Lab5.vhd
+Model Technology ModelSim SE-64 vcom 10.7b Compiler 2018.06 Jun  8 2018
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Lab5
+-- Compiling architecture model of Lab5
+
+} {} {}}

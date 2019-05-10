@@ -1,0 +1,111 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dS:/CPET232/Lab4/ModelSim
+T_opt
+!s110 1538159001
+V0OKO;89]B=Z[l5^VOO?In2
+Z1 04 13 4 work calculator_tb test 1
+=1-509a4c2798b0-5bae7198-1c5-c14
+o-quiet -auto_acc_if_foreign -work work
+Z2 tCvgOpt 0
+n@_opt
+Z3 OL;O;10.7b;67
+T_opt1
+!s110 1538094052
+Vbfk<DK@Kl8@:2JN6fO@B[1
+R1
+=1-509a4c2798b0-5bad73e3-318-31e4
+o-quiet -auto_acc_if_foreign -work work +acc
+R2
+n@_opt1
+R3
+R0
+Ecalculator_tb
+Z4 w1538094347
+Z5 DPx4 ieee 11 numeric_std 0 22 aU^R8eGcicLcUFIaBQSL>3
+Z6 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z7 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z8 dS:/CPET232/Lab5/ModelSim
+Z9 8S:/CPET232/Lab5/calculator_tb.vhd
+Z10 FS:/CPET232/Lab5/calculator_tb.vhd
+l0
+L47
+VfC1g=XPY>8h7K703gC0Rc2
+!s100 Ad:ADzHiZC=WFC5d>RCK<3
+Z11 OL;C;10.7b;67
+32
+Z12 !s110 1538158993
+!i10b 1
+Z13 !s108 1538158993.000000
+Z14 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/CPET232/Lab5/calculator_tb.vhd|
+Z15 !s107 S:/CPET232/Lab5/calculator_tb.vhd|
+!i113 0
+Z16 o-work work -2002 -explicit
+Z17 tExplicit 1 CvgOpt 0
+Atest
+R5
+R6
+R7
+DEx4 work 13 calculator_tb 0 22 fC1g=XPY>8h7K703gC0Rc2
+l111
+L50
+VC8LYm3[N7aI[Z8T5hfU0E2
+!s100 ==YXgcTmLaN4[I^A`MCSL1
+R11
+32
+R12
+!i10b 1
+R13
+R14
+R15
+!i113 0
+R16
+R17
+Elab5
+Z18 w1538158987
+R5
+R6
+R7
+R8
+Z19 8S:/CPET232/Lab5/Lab5.vhd
+Z20 FS:/CPET232/Lab5/Lab5.vhd
+l0
+L5
+VBlegLhVH[X4g;BQPhO`AC1
+!s100 izhgn72Q=NX@be<CczXCm2
+R11
+32
+Z21 !s110 1538158994
+!i10b 1
+R13
+Z22 !s90 -reportprogress|300|-work|work|-2002|-explicit|-vopt|-stats=none|S:/CPET232/Lab5/Lab5.vhd|
+Z23 !s107 S:/CPET232/Lab5/Lab5.vhd|
+!i113 0
+R16
+R17
+Amodel
+R5
+R6
+R7
+DEx4 work 4 lab5 0 22 BlegLhVH[X4g;BQPhO`AC1
+l16
+L12
+Vc<DL4mZ_6mJog_n`N5]7Q0
+!s100 j0lDo@TbQ>aU^bBm9=DRb3
+R11
+32
+R21
+!i10b 1
+R13
+R22
+R23
+!i113 0
+R16
+R17
